@@ -7,7 +7,7 @@ import Category from "./pages/Category";
 import SiteHeader from "./components/SiteHeader";
 
 const client = new ApolloClient({
-  uri: "https://game-review-backend-u75v.onrender.com",
+  uri: "https://game-review-backend-u75v.onrender.com/graphql",
   cache: new InMemoryCache(),
 });
 
