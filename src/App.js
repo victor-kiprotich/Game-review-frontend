@@ -7,7 +7,7 @@ import Category from "./pages/Category";
 import SiteHeader from "./components/SiteHeader";
 
 const client = new ApolloClient({
-  uri: "http://localhost:1337/graphql",
+  uri: "https://victor-kiprotich-github-io.onrender.com",
   cache: new InMemoryCache(),
 });
 
